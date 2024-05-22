@@ -65,6 +65,8 @@ nav a:hover{
     padding: 8px;
     border: none;
     border-radius: 5px;
+    max-height: 45px;
+    color: white;
 }
 
 /* intro */
@@ -103,9 +105,10 @@ h1{
     box-shadow: 2px 2px 15px #2B0239;
 }
 
-.main-intro .resume-button:hover{
+.resume-button:hover{
     box-shadow: 2px 2px 20px #2B0239;
     cursor: pointer;
+    border: solid 1px black;
 }
 
 .intro-text p{
@@ -122,4 +125,15 @@ h1{
     .main-intro{
         flex-direction: column;
     }
+
+    html{
+        background: linear-gradient(0deg, rgba(43,2,57,1) 0%, rgba(183,32,136,1) 50%, rgba(143,10,182,1) 100%);;
+    }
+}
+
+.svg{
+    display:flex;
+    gap: 8px;
+    flex: 1 0 auto;
+    align-items: center;
 }
