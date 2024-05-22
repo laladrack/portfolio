@@ -74,7 +74,7 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;    
+    max-width: 80%;    
     position: absolute;
     top: 125px;
 }
@@ -101,7 +101,7 @@ h1{
 }
 
 .main-intro .resume-button{
-    max-width: 185px;
+    max-width: 200px;
     box-shadow: 2px 2px 15px #2B0239;
 }
 
@@ -117,8 +117,10 @@ h1{
 }
 
 #gif{
-    height: 360px;
+    max-height: 460px;
+    min-height: 150px;
     width: auto;
+    flex: auto;
 }
 
 @media screen and (max-width(550px)){
@@ -136,4 +138,9 @@ h1{
     gap: 8px;
     flex: 1 0 auto;
     align-items: center;
+}
+
+#Projects{
+    display: flex;
+    color: white;
 }
