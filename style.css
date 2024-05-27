@@ -144,3 +144,64 @@ h3{
     align-self: flex-start;
     font-size: 30px;
 }
+
+
+
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;    
+    position: absolute;
+    top: 675px; 
+    flex-direction: column;
+    padding-bottom: 32px;
+}
+
+.proj-link{
+    text-decoration: none;
+    color: rgb(206, 95, 240);
+    font-weight: 700;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.intro-text h5{
+    font-weight: 300;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 400;
+    padding: 8px;
+    align-self: flex-start;
+}
+
+
+#foto-bpa{
+    max-height: 350px;
+    min-height: 150px;
+    width: auto;
+    flex: auto;
+    padding: 8px;
+}
+
+h3{
+    align-self: flex-start;
+    font-size: 30px;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    font-size: 18px;
+    padding: 8px;
+}
