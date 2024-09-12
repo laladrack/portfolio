@@ -141,6 +141,10 @@ h3{
     align-self: flex-start;
     font-size: 30px;
     gap: 16px;
+    text-align: center;
+}
+h2{
+    text-align: center;
 }
 
 .tecnologias{
@@ -165,17 +169,33 @@ h3{
     max-width: 1000px;
 }
 
+#UFPR, #Unibrasil, #PUC{
+    padding: 8px;
+}
+
 .data, .curso{
     font-size: 16px;
     color: #eebdfd;
     margin: 8px 0 8px 0;
+    text-align: start;
+}
+.curso{
+    color: #ffffff;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #skill-list{
+    list-style-type: none;
     column-count: 2;
     column-gap: 10px;
     margin: 16px;
     max-width: 650px;
+    text-align: center;
 }
 
 /*Experience*/
