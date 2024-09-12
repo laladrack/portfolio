@@ -190,12 +190,16 @@ h2{
 }
 
 #skill-list{
-    list-style-type: none;
-    column-count: 2;
-    column-gap: 10px;
+    list-style: none;
     margin: 16px;
     max-width: 650px;
-    text-align: center;
+    text-align: left;
+    column-count: 2;
+}
+
+#skill-list li:before{
+    content: '\2605';
+    margin-right: 8px;
 }
 
 /*Experience*/
