@@ -73,11 +73,7 @@ nav a:hover{
     align-items: center;
     justify-content: center;
     max-width: 1000px;    
-    padding: 60px;
-    position: absolute;
-    top: 5%;
-    left: 0;
-    right: 0;
+    padding: 100px;
     margin-inline: auto;
 }
 
@@ -147,9 +143,15 @@ h3{
     gap: 16px;
 }
 
-#education{
+.tecnologias{
+    margin-bottom: 16px;
+}
+
+/*education*/
+#education, #experience{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .coluna-ed h3{
@@ -159,17 +161,26 @@ h3{
 .coluna-ed{
     padding: 32px;
     gap: 30px;
-    position: absolute;
-    top: 80%;
-    left: 0;
-    right: 0;
     margin-inline: auto;
-    width: fit-content;
+    max-width: 1000px;
 }
 
 .data, .curso{
-    font-size: 15px;
+    font-size: 16px;
     color: #eebdfd;
     margin: 8px 0 8px 0;
+}
+
+/*Experience*/
+
+.coluna-ex{
+    padding: 32px;
+    gap: 30px;
+    margin-inline: auto;
+    max-width: 1000px;
+}
+
+.coluna-ex h3{
+    margin: 0 0 24px 0;
 }
 
