@@ -184,3 +184,10 @@ h3{
     margin: 0 0 24px 0;
 }
 
+#footer{
+    display: flex;
+    font-size: 12px;
+    margin: 16px;
+    padding: 8px;
+    justify-content: center;
+}
