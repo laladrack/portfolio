@@ -223,3 +223,89 @@ h2{
     padding: 8px;
     justify-content: center;
 }
+
+/* 750px */
+@media only screen and (max-width: 750px){
+    body{
+        background-image: linear-gradient(0deg, rgba(43, 2, 57, 1) 0%, rgba(183, 32, 136, 1) 50%, rgba(143, 10, 182, 1) 100%);
+    }
+    #gif{
+        max-width: 300px;
+    }
+    .main-intro{
+        max-width: 350px;
+    }
+    .intro-text h1{
+        font-size: 40px;
+    }
+    nav h3{
+        transform: scale(0.95);
+    }
+    #links{
+        font-size: 12px;
+    }
+    .resume-button{
+        transform: scale(0.9);
+    }
+}
+
+/* 600px */
+@media only screen and (max-width: 650px){
+    body{
+        background-image: linear-gradient(0deg, rgba(43, 2, 57, 1) 0%, rgba(183, 32, 136, 1) 50%, rgba(143, 10, 182, 1) 100%);
+    }
+    #gif{
+        max-width: 300px;
+    }
+    .main-intro{
+        max-width: 350px;
+    }
+    .intro-text h1{
+        font-size: 40px;
+    }
+    nav h3{
+        transform: scale(0.95);
+    }
+    #links{
+        font-size: 12px;
+    }
+    .resume-button{
+        transform: scale(0.9);
+    }
+}
+
+/* 500px */
+@media only screen and (max-width: 500px){
+    body{
+        background-image: linear-gradient(0deg, rgba(43, 2, 57, 1) 0%, rgba(183, 32, 136, 1) 50%, rgba(143, 10, 182, 1) 100%);
+    }
+    #gif{
+        max-width: 250px;
+    }
+    .main-intro{
+        max-width: 250px;
+        margin-right: 8px;
+    }
+    .intro-text{
+        transform: scale(0.9);
+    }
+    nav h3{
+        transform: scale(0.85);
+    }
+    #links{
+        font-size: 11px;
+    }
+    .resume-button{
+        transform: scale(0.8);
+    }
+}
+
+/* 400px */
+@media only screen and (max-width: 400px){
+    body{
+        background-image: linear-gradient(0deg, rgba(43, 2, 57, 1) 0%, rgba(183, 32, 136, 1) 50%, rgba(143, 10, 182, 1) 100%);
+    }    
+    #gif{
+        max-width: 200px;
+    }
+}
