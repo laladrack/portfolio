@@ -162,6 +162,10 @@ h2{
     margin: 0 0 24px 0;
 }
 
+.coluna-ed h2{
+    margin: 24px 0 16px 0;
+}
+
 .coluna-ed, .coluna-ex, #coluna-skill{
     padding: 32px;
     gap: 30px;
@@ -205,7 +209,11 @@ h2{
 /*Experience*/
 
 .coluna-ex h3{
-    margin: 0 0 24px 0;
+    margin: 24px;
+}
+
+.coluna-ex h2{
+    margin: 24px 0 16px 0;
 }
 
 #footer{
