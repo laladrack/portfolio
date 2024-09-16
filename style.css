@@ -255,7 +255,7 @@ h2{
     }
 }
 
-/* 600px */
+/* 650px */
 @media only screen and (max-width: 650px){
     body{
         background-image: linear-gradient(0deg, rgba(43, 2, 57, 1) 0%, rgba(183, 32, 136, 1) 50%, rgba(143, 10, 182, 1) 100%);
@@ -278,6 +278,16 @@ h2{
     .resume-button{
         transform: scale(0.9);
     }
+
+    .coluna-ed h3, .coluna-ex h3{
+        font-size: 28px;
+    }
+    .coluna-ed h2, .coluna-ex h2{
+        font-size: 20px;
+    }
+    .coluna-ed p, .coluna-ex p{
+        font-size: 14px;
+    }
 }
 
 /* 500px */
@@ -299,7 +309,7 @@ h2{
         transform: scale(0.85);
     }
     #links{
-        font-size: 14spx;
+        font-size: 14px;
         padding-right: 8px;
     }
     nav .resume-button{
