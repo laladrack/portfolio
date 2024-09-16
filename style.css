@@ -209,11 +209,17 @@ h2{
 /*Experience*/
 
 .coluna-ex h3{
-    margin: 24px;
+    margin-bottom: 46px;
+    margin-top: 36px;
 }
 
 .coluna-ex h2{
-    margin: 24px 0 16px 0;
+    margin-bottom:36px;
+    margin-top: 30px;
+}
+.coluna-ex p{
+    margin-top: 24px;
+    margin-bottom: 42px;
 }
 
 #footer{
